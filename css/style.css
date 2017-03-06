@@ -1,0 +1,45 @@
+html{
+
+ height:100%;
+ min-height:100%;
+
+ }
+body{
+    background: url("../img/wood.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.message {
+  font-family: 'Special Elite', cursive;
+  font-size: 14pt;
+  //font-weight: bold;
+
+}
+
+.twt {
+  font-size: 24px;
+}
+
+.p-custom {
+  font-family: 'Arial', cursive;
+  font-size: 18px;
+  //text-shadow: 2px 2px 2px black;
+}
+
+.msg-box {
+  height: 170px;
+  box-shadow: 2px 2px 15px black;
+}
+
+.title {
+  font-family: 'Trocchi', cursive;
+  font-size: 2.4em;
+  //font-weight: bold;
+  color: black;
+  text-shadow: 2px 2px 5px gray;
+}
+

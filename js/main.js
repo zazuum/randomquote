@@ -24,18 +24,21 @@ $(document).ready(function() {
 
     $("#shareTwitter").on("click", function() {
 		 window.open('http://twitter.com/intent/tweet?text='
-	+ $(".message").text()+" "+"goo.gl/BC3Gnp" );
+	+ $(".message").text() +" "+"goo.gl/BC3Gnp" );
 		})
 
     $("#shareFacebook").on("click", function() {
-		 window.open('https://www.facebook.com/sharer/sharer.php?u=http://goo.gl/BC3Gnptitle='
+		 window.open('https://www.facebook.com/sharer/sharer.php?u=https://zazuum.github.io/randomquotetitle='
 		+ $(".message").text() +"\"" );
 		})
 
    $("#shareWhatsApp").on("click", function() {
 		 window.open('whatsapp://send?text='
-	+ $(".message").text() " --> "+"goo.gl/BC3Gnp");
+	+ $(".message").text() +" -->"+"goo.gl/BC3Gnp");
 		})
 
 
   });
+
+
+

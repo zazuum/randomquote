@@ -43,3 +43,11 @@ body{
   text-shadow: 2px 2px 5px gray;
 }
 
+.futer {
+  color: white;
+  background-color: transparent;
+  border-radius: 0.5%;
+  font-family: 'Ubuntu', cursive;
+  padding-top: 100pt;
+
+}
